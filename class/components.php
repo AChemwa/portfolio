@@ -129,7 +129,12 @@ class ProjectsPage{
                     <h5 class="card-header">PROJECTS</h5>
                     <div class="card-body">
                         <h5 class="card-title">RECENT PROJECTS</h5>
-                        <p class="card-text">PORTFOLIO WEBSITE <br> MORE PROJECTS ON THE WAY...</p>
+                        <p class="card-text">
+                                <ol>
+                                    <li>PORTFOLIO WEBSITE</li>
+                                </ol><br> 
+                                MORE PROJECTS ON THE WAY...
+                            </p>
                         <a href="https://github.com/AChemwa" class="btn btn-primary">GitHub Profile</a>
                     </div>
                 </div>

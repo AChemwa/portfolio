@@ -9,13 +9,15 @@
 .container{
     padding-top: 50px;
     margin: 0 auto;
+    text-align: left;
+    text-wrap: wrap;
 }
 .container img{
     width: 400px;
     height: 400px;
 }
-footer p{
-    padding-top: 300px;
-    text-align: center;
+.card{
+    width: 50%;
     margin: 0 auto;
+    margin-bottom: 50px;
 }

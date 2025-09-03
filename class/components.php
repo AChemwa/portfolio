@@ -61,3 +61,81 @@ class HomePage{
         .   PageLayout::PageFooter()  ;
     }
 }
+
+class AboutPage{
+    static function AboutPage(){
+        echo
+        PageLayout::PageHeader() . 
+        '
+        <div class="container-fluid">
+            <div class="container">
+                <div class="card">
+                    <div class="card-header">
+                            ABOUT
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">ANDREW CHEMWA</h5>
+                        <p class="card-text">Web Developer</p>
+                        <a href="/skills" class="btn btn-primary">SKILLS</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        '
+        . PageLayout::PageFooter();
+    }
+}
+
+class SkillsPage{
+    static function SkillsPage(){
+        echo
+        PageLayout::PageHeader() .
+        '
+        <div class="container-fluid">
+            <div class="container">
+                <div class="card">
+                    <div class="card-header">
+                            SKILLLS
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">TECH SKILLS</h5>
+                        <p class="card-text">OS: LINUX <br> LANGUAGES: PHP, HTML, CSS, JAVA, C++ <br> FRAMEWORKS: BOOTSTRAP, F3 FRAMEWORK <br>
+                                            DATABASE: MySQL, MariaDB, Postgresql <br>  
+                        </p>
+                        <a href="/projects" class="btn btn-primary">PROJECTS</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">SOFT SKILLS</h5>
+                        <p class="card-text">LEADERSHIP <br> COMMUNICATION <br> TEAMWORK</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        ' .
+        PageLayout::PageFooter();
+    }
+}
+
+class ProjectsPage{
+    static function ProjectsPage(){
+        echo
+        PageLayout::PageHeader() .
+        '
+        <div class="container-fluid">
+            <div class="container">
+                <div class="card">
+                    <h5 class="card-header">PROJECTS</h5>
+                    <div class="card-body">
+                        <h5 class="card-title">RECENT PROJECTS</h5>
+                        <p class="card-text">PORTFOLIO WEBSITE <br> MORE PROJECTS ON THE WAY...</p>
+                        <a href="https://github.com/AChemwa" class="btn btn-primary">GitHub Profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>    
+        '
+        . PageLayout::PageFooter();
+    }
+}

@@ -99,7 +99,7 @@ class SkillsPage{
                     </div>
                     <div class="card-body">
                         <h5 class="card-title">TECH SKILLS</h5>
-                        <p class="card-text">OS: LINUX <br> LANGUAGES: PHP, HTML, CSS, JAVA, C++ <br> FRAMEWORKS: BOOTSTRAP, F3 FRAMEWORK <br>
+                        <p class="card-text">OS: LINUX <br> LANGUAGES: PHP, HTML, CSS, JAVA, C++ <br> FRAMEWORKS: BOOTSTRAP, FAT-FREE FRAMEWORK <br>
                                             DATABASE: MySQL, MariaDB, Postgresql <br>  
                         </p>
                         <a href="/projects" class="btn btn-primary">PROJECTS</a>

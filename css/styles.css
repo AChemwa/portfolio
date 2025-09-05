@@ -1,10 +1,11 @@
 @keyframes animation {
     from {
         background-color: #FFF;
-    }
-    to{
+        color: blue;
+    }to{
         background-color: darkorange;
         border-radius: 10px;
+        color: black;
     }
 }
 @keyframes cardAnimation{
@@ -30,14 +31,11 @@
     margin: 0 auto;
     margin-top: 10px;
     animation-name: animation;
-    animation-duration: 4s;
+    animation-duration: 5s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-}
-.nav ul li a{
-    color: #FFF;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 .container-fluid{
     display: flex;
@@ -50,6 +48,7 @@
     margin: 0 auto;
     text-align: left;
     text-wrap: wrap;
+    perspective: 1000px;
 }
 .container img{
     width: 400px;
@@ -63,6 +62,23 @@
     animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+}
+@keyframes cardRotate {
+    from{
+    transform: translateY(-30px) rotateX(20deg);
+    box-shadow: 0px 20px 30px rgba(5, 206, 38, 0.89);
+    }to{
+    transform: translateY(-10px) rotateX(10deg);
+    box-shadow: 0px 20px 30px rgba(4, 182, 236, 0.89);        
+    }
+}
+.card:hover{
+    animation-name: cardRotate;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 10s;
+    z-index: 100;
 }
 .btn{
     animation: btn;

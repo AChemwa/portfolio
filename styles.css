@@ -3,15 +3,27 @@
     padding: 0;
 }
 .container-fluid{
-    margin-bottom: 100px;
+    margin-bottom: 150px;
+    height: 200%;
 }
 .card{
     width: 70%;
+    height: 400px;
     margin: 0 auto;
+    font-size: 1.2rem;
+    transition: background-color 2s linear 0s, box-shadow 2s linear 0s, color 1ms ease 0s;
+}
+.card:hover{
+    background-color: chocolate;
+    box-shadow: 2px 2px black;
+    color: #FFF;
 }
 .nav-link{
-    transition: border-bottom 4s ease 0s;
+    transition: border-bottom 4s linear 4s;
 }
 .nav-link:hover{
     border-bottom: 2px solid black;
+}
+.nav{
+    margin-top: 10px;
 }

@@ -1,7 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .container-fluid{
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 .card{
     width: 70%;
     margin: 0 auto;
+}
+.nav-link{
+    transition: border-bottom 4s ease 0s;
+}
+.nav-link:hover{
+    border-bottom: 2px solid black;
 }

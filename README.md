@@ -1,1 +1,3 @@
 # portfolio
+Built with HTML, CSS AND PHP.
+ STATIC ONE PAGE SITE. MY PORTFOLIO.
